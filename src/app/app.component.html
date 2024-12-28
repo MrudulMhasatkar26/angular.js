@@ -1,0 +1,155 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header><h2>Smt.Kashibai Navale College of Engineering,Vadgaon Pune(SKNCOE)</h2>
+<img src="https://www.stesracing.org/assets/img/Sinhgad%20Institutes%20custom.png"></header>
+<div class="one">
+    <nav>
+        <a routerLink="/home">Home</a>
+        <a routerLink="/department">Department</a>
+        <a routerLink="/aboutus">AboutUs</a>
+        <a routerLink="/contactus">ContactUs</a>
+    </nav>
+</div>
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Navigation Bar</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #04AA6D;
+    color: black;
+  }
+  
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: whitesmoke;
+  }
+  
+  .navbar .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="navbar" id="navbar">
+  <a href="home/" class="active">Home</a>
+  <a href="department/">Department</a>
+  <a href="aboutus/">AboutUs</a>
+  <a href="contactus/">ContactUs</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("navbar");
+    if (x.className === "navbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar";
+    }
+  }
+</script>
+
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown Navigation Bar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Dropdown</a>
+      <div class="dropdown-content">
+        <a href="#link1">Link 1</a>
+        <a href="#link2">Link 2</a>
+        <a href="#link3">Link 3</a>
+      </div>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+</body>
+</html> -->
+<div class="navbar">
+  <a href="/home">Home</a>
+  <a href="/aboutus">AboutUs</a>
+  <a href="/gallery">Gallery</a>
+  <a href="/contactus">ContactUs</a>
+  <a href="/placement">Placements</a>
+  <div class="dropdown">
+    <button class="dropbtn">Department
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Computer Engineering</a>
+      <a href="#">Information Technology</a>
+      <a href="#">mechanical Engineering</a>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

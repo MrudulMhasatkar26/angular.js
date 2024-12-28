@@ -1,0 +1,45 @@
+
+
+  /********** Footer CSS Starts **********/  
+.footer {
+  background-color:#1f2836;
+  padding:40px 20px;
+  width:100%;
+  float:left;
+}
+.footer-sect {
+  width:33%;
+  float:left;
+}
+.footer-sect h2 {
+  color:#fff;
+  margin-bottom: 20px;
+}
+.footer-sect p {
+  color: #fff;
+  line-height: 22px;
+  padding:0px 30px 20px 0px;
+}
+.footer-sect img{
+  position: sticky;
+  margin-top: auto;
+  padding-top: 0%;
+}
+.footer-menu li {
+  width: 60%;
+  float: left;
+  margin-bottom: 10px;
+
+}
+.footer-menu li a {
+  color:#fff;
+  text-decoration: none;
+}
+.footer-contact li {
+  margin-bottom:15px;
+  list-style: none;
+  color: #fff;
+ 
+}
+/********** Footer CSS Ends **********/
+  

@@ -1,0 +1,42 @@
+.contact{
+    text-align: center;
+    background-color: beige;
+    background-image: url('https://cdn.pixabay.com/photo/2022/01/12/18/51/contact-us-6933645_1280.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 215vh; 
+  }
+  .location{
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+  }
+  .location iframe{
+  width: 100%;
+  }
+  .container{
+    width: 100%;
+    margin: auto;
+  }
+  .contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+  }
+  .contact-col div{
+    display:block;
+    
+  }
+  .contact-col div .fa{
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 10px;
+  }
+  h1{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  h2{
+    font-size: 20px;
+  }
